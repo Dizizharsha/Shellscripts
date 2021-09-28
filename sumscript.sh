@@ -5,6 +5,9 @@
 parameter_one = $1
 parameter_two = $2
 
+echo "Parameter 1 = ${parameter_one}"
+echo "Parameter 2 = ${parameter_two}"
+
 sum=$(( ${parameter_one} + ${parameter_two} ))
 
 echo "Sum is: $sum"
